@@ -1,0 +1,24 @@
+{
+  "id": "modded-shop",
+  "kind": "native",
+  "version": "0.2.1",
+  "backlog": "M16",
+  "feature_dependencies": [
+    "shop-framework"
+  ],
+  "gameplay": true,
+  "hotkey": "Ctrl+Shift+F2",
+  "display_name": "Modded Shop",
+  "play_help": [
+    "Ctrl+Shift+F2 opens the separate Modded Shop using the normal native shop UI.",
+    "Vanilla shops retain vanilla rows; registered mod items have real price, ownership and Buy actions.",
+    "Framework owns the shortcut once; Modded Shop entry is optional. Gameplay checks deferred."
+  ],
+  "requires_apis": [
+    {
+      "api": "shop-framework.shop",
+      "abi": 1,
+      "min_size": 56
+    }
+  ]
+}

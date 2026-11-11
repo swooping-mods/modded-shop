@@ -1,5 +1,7 @@
 # Modded Shop
 
+<img src="media/icon.png" alt="Modded Shop icon" width="128" height="128">
+
 Separate native Modded Shop with real registered item purchases.
 
 ## Install
